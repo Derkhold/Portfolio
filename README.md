@@ -96,5 +96,6 @@ Email: derkhold@gmail.com
 
 
 
-For identification purposes: this portfolio is associated with my application under the name Iséo Lasfargues.
+Thank you for visiting this portfolio. Feedback, technical suggestions, and constructive questions are always welcome.
+
 
