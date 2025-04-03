@@ -1,9 +1,12 @@
-# Quantitative Trading Portfolio
+## 1. Introduction
 
-Bienvenue sur mon portfolio de projets en **finance de marché**, **trading algorithmique** et **machine learning appliqué aux données financières**.
+This portfolio documents my ongoing exploration of quantitative trading and system design through hands-on, code-driven experimentation.
 
-Chaque projet a été conçu pour combiner **rigueur quantitative**, **codage propre en Python** et **utilisabilité réelle** dans des environnements de backtest ou de simulation live.  
-Les frameworks utilisés incluent : `Backtrader`, `TA-Lib`, `Alpaca API`, `Keras`, `Streamlit`, `FPDF`, et bien d'autres.
+Rather than focusing on pre-packaged solutions or academic exercises, I’ve chosen to build things from scratch — to understand how trading logic can be structured, tested, and adapted in realistic environments. Each project here reflects a stage in that learning process: from writing clean, modular code to simulating executions and designing reusable components.
+
+My goal is to go beyond isolated scripts and move toward a more engineering-minded approach to finance. I’m interested in how trading systems are actually built — how strategies interface with risk controls, how code architecture supports clarity and flexibility, and how outputs can be made transparent and audit-ready.
+
+This portfolio isn’t intended as a final product. It’s a snapshot of what I’ve built so far, and a foundation I plan to improve and expand as I continue learning.
 
 ---
 
