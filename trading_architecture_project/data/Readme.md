@@ -1,4 +1,4 @@
-## AlpacaAPI 
+## AlpacaAPI - Data Collection 
 
 The `AlpacaAPI` class is responsible for fetching historical OHLCV data (Open, High, Low, Close, Volume) from the Alpaca Market Data API. It is designed to support efficient and reliable access to price data while minimizing latency, API usage, and memory footprint.
 
