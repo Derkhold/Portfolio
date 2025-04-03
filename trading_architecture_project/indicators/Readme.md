@@ -1,4 +1,4 @@
-# III – Indicators: BaseIndicator Class
+# III – Indicators:
 
 ## BaseIndicator – Foundation for Custom Technical Indicators
 
@@ -12,7 +12,7 @@ This class is intended to be inherited by specific indicators (e.g., RSI, MACD, 
 
 ---
 
-## Core Functionalities
+### Core Functionalities
 
 - Avoids redundant computations by caching results  
 - Validates historical data length before applying calculations  
@@ -20,3 +20,26 @@ This class is intended to be inherited by specific indicators (e.g., RSI, MACD, 
 - Supports optional debug logging to assist with indicator development
 
 > This class forms the backbone of all TA-Lib-based custom indicators implemented in this framework.
+
+
+## Custom TA-Lib Indicators for Algorithmic Trading
+
+This section presents a collection of custom technical indicators implemented using the Backtrader and TA-Lib libraries. These indicators are essential components used for generating trading signals within the system.
+
+Each class inherits from the shared `BaseIndicator`, and includes logic for data validation, memory optimization, and optional debugging to ensure both performance and reliability.
+
+---
+
+### Included Indicators
+
+- Simple Moving Average (SMA)  
+- Exponential Moving Average (EMA)  
+- Relative Strength Index (RSI)  
+- Volume-Weighted Average Price (VWAP)  
+- Moving Average Convergence Divergence (MACD)  
+- Bollinger Bands  
+- Ichimoku Kinko Hyo  
+- Average Directional Index (ADX)  
+- Commodity Channel Index (CCI)  
+- Williams %R  
+- Advanced Volume Metrics (RVOL, OBV)
