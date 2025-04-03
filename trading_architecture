@@ -1,0 +1,52 @@
+# Modular Algorithmic Trading Architecture
+
+This project presents a modular, extensible framework for designing, testing, and analyzing algorithmic trading strategies in Python.
+
+Rather than focusing on a single strategy or dataset, the goal is to build a **flexible system** that can be adapted to different styles, market environments, and research directions. Each component is designed to be independent and reusable, following a clear **separation of concerns** to ensure maintainability, scalability, and transparency.
+
+---
+
+## Project Overview
+
+The architecture is structured into the following core components:
+
+- **Data Collection**  
+  Import and preprocessing of historical market data, including local caching and API integration (e.g., Alpaca).
+
+- **Indicators**  
+  Computation of technical indicators such as SMA, EMA, RSI, ATR, MACD, and VWAP using TA-Lib and custom implementations.
+
+- **Managers**
+  - `OrderManager`: Handles order placement logic
+  - `PositionManager`: Tracks and updates position states
+  - `RiskManager`: Applies risk constraints, stop-loss logic, and position sizing
+  - `TradeMonitor`: Logs trade executions and performance statistics
+
+- **Strategies**  
+  Definition of rule-based strategies that plug into the system and use the above components for execution.
+
+- **Backtest Engine**  
+  A custom runner built on top of Backtrader to execute strategies under realistic conditions, with full metrics tracking.
+
+- **Results & Reporting**  
+  Export of results in CSV, JSON, and PDF formats. Includes equity curves, trade logs, and summary statistics.
+
+- **Conclusion & Extensions**  
+  A final assessment of the framework, with a list of open directions for improvement and future work.
+
+---
+
+## Objective
+
+The purpose of this framework is not to optimize a single strategy, but to develop a **reusable research and execution platform** that can:
+
+- Be extended to multiple asset classes and timeframes  
+- Connect to live trading APIs (e.g., Alpaca) for real-time execution  
+- Support robust risk evaluation and performance diagnostics  
+- Adapt to various market regimes (trend-following, mean-reverting, volatile, etc.)  
+- Serve as a foundation for future experimentation and model integration
+
+---
+
+## Project Structure
+
