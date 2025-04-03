@@ -1,4 +1,4 @@
-# III – Indicators:
+# Indicators:
 
 ## BaseIndicator – Foundation for Custom Technical Indicators
 
