@@ -1,4 +1,4 @@
-# 💼 Quantitative Trading Portfolio
+# Quantitative Trading Portfolio
 
 Bienvenue sur mon portfolio de projets en **finance de marché**, **trading algorithmique** et **machine learning appliqué aux données financières**.
 
@@ -30,50 +30,6 @@ Les frameworks utilisés incluent : `Backtrader`, `TA-Lib`, `Alpaca API`, `Keras
 
 ---
 
-### 2. 📈 LSTM Forecasting on Forex
-> Modèle LSTM pour la prédiction de la tendance EUR/USD
-
-📁 [`/forex_lstm_prediction`](./forex_lstm_prediction)
-
-- Données historiques Forex nettoyées et normalisées
-- Séquences temporelles pour apprentissage supervisé
-- Architecture LSTM avec Keras/Tensorflow
-- Évaluation des performances : RMSE, MAE, visualisation des erreurs
-
----
-
-### 3. 📰 Crypto Sentiment Strategy
-> Stratégie de trading basée sur l’analyse de sentiment Twitter dans les cryptomonnaies
-
-📁 [`/crypto_sentiment_strategy`](./crypto_sentiment_strategy)
-
-- Scraping de tweets et nettoyage NLP (TextBlob / Vader)
-- Attribution de scores de sentiment et agrégation par période
-- Génération de signaux d'achat/vente basés sur l'émotion du marché
-- Backtest de stratégie sentimentale + rapport PDF final
-
----
-
-### 4. 📊 Risk Metrics Dashboard
-> Dashboard interactif avec calculs de risque personnalisés (VaR, CVaR, drawdown, etc.)
-
-📁 [`/risk_metrics_dashboard`](./risk_metrics_dashboard)
-
-- Application Streamlit avec calculs dynamiques
-- Upload de données personnalisées ou sélection d’actifs simulés
-- Visualisation de métriques de risque sur période glissante
-- Export CSV + support pour analyse hors ligne
-
----
-
-## 🧠 Technologies utilisées
-
-- **Langage** : `Python 3.11`
-- **Backtesting** : `Backtrader`, `Pandas`, `Matplotlib`
-- **Machine Learning** : `Keras`, `Tensorflow`, `Scikit-learn`
-- **API de données** : `Alpaca`, `Yahoo Finance`, `Twitter`
-- **Analyse technique** : `TA-Lib`, indicateurs custom
-- **Dashboards & Reporting** : `Streamlit`, `FPDF`, `JSON`, `CSV`
 
 ---
 
