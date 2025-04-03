@@ -35,11 +35,7 @@ Les frameworks utilisés incluent : `Backtrader`, `TA-Lib`, `Alpaca API`, `Keras
 
 ## 👨‍💻 À propos de moi
 
-**Iséo Lasfargues**  
-🎓 Étudiant en Master Finance de Marché – NEOMA Business School  
-💡 Passionné par le quant trading, le machine learning, l’analyse de risque, et l’automatisation des stratégies  
-📬 iseo.lasfargues.22@neoma-bs.com  
-🔗 [LinkedIn](https://linkedin.com/in/tonprofil)  
+
 
 ---
 
