@@ -1,4 +1,4 @@
-## 1. Introduction
+## Introduction
 
 This portfolio documents my ongoing exploration of quantitative trading and system design through hands-on, code-driven experimentation.
 
