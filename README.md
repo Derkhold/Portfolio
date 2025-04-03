@@ -93,3 +93,8 @@ This roadmap will likely evolve as I progress, but it reflects my current focus:
 
 If you'd like to discuss any of these projects, ask questions about the architecture, or talk about opportunities related to trading systems or quantitative research, feel free to reach out.
 Email: derkhold@gmail.com
+
+
+
+For identification purposes: this portfolio is associated with my application under the name Iséo Lasfargues.
+
