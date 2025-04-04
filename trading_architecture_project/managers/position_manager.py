@@ -1,3 +1,17 @@
+import alpaca_trade_api as tradeapi
+import os
+import pickle
+from datetime import datetime, timedelta
+import numpy as np
+import talib
+import pandas as pd
+import json
+from fpdf import FPDF
+import matplotlib.pyplot as plt
+import logging
+import backtrader as bt
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 class PositionManager:
     """
     Tracks position state, direction, duration, and entry metadata.
