@@ -1,3 +1,7 @@
+import alpaca_trade_api as tradeapi
+from datetime import datetime, timedelta
+import pandas as pd
+import backtrader as bt
 
 # Set Alpaca API credentials
 API_KEY = "PKDIPOK6WDT330JATAFH"
