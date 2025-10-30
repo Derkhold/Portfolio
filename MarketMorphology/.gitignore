@@ -1,0 +1,72 @@
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data and results
+data/**
+!data/.gitkeep
+results/**
+!results/.gitkeep
+
+# Logs and temporary files
+logs/
+*.log
+cache/
+*.cache
+
+# Notebooks
+.ipynb_checkpoints/
+notebooks/**/.ipynb_checkpoints/
+
+# Secrets and local configs
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+secrets*.json
+
+# Python cache and build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Test and coverage
+.tox/
+.nox/
+.pytest_cache/
+.coverage*
+htmlcov/
+coverage.xml
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# Docs
+docs/_build/
+
+# Others
+*.spec
+*.manifest
+.cyton_debug/
