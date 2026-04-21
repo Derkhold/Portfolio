@@ -1,8 +1,8 @@
-# Quantitative Research & System Engineering Portfolio
+# Applied Research Portfolio
 
 ## Introduction
 
-This repository serves as the central directory for my continuous exploration of quantitative finance, market microstructure, and computational system design through hands-on, code-driven experimentation.
+This repository serves as the central directory for my continuous exploration of computational science, artificial intelligence, and secure infrastructure through hands-on, code-driven experimentation.
 
 Rather than relying on pre-packaged solutions or purely academic exercises, I choose to build analytical frameworks and trading infrastructure from scratch. This approach forces a deep understanding of how mathematical logic can be structured, rigorously tested, and scaled within realistic environments. 
 
@@ -45,6 +45,16 @@ A physics-informed Machine Learning project aimed at building a virtual temperat
 * **Defensive Engineering:** Strict enforcement of group-aware validation (GroupKFold) to prevent temporal autocorrelation and data leakage across causally independent driving profiles.
 * **Data Engineering:** High-performance data ingestion utilizing columnar Parquet storage and Polars.
 * **Key Takeaway:** Managing massive industrial datasets, designing recurrent neural networks as numerical integrators, and rigorously auditing "black-box" models using Explainable AI (Permutation Importance).
+
+### 4. Aegis-VPN: Multi-Cloud Zero-Log Infrastructure
+🔗 **[Aegis-VPN](https://github.com/Derkhold/Aegis-VPN)**
+
+A fully automated, Infrastructure-as-Code (IaC) deployment of a highly resilient, stealth proxy server. This project demonstrates the ability to provision and harden production-grade networking environments across disparate cloud providers.
+
+* **Core Mechanics:** Decoupled Terraform state management for concurrent deployment on Google Cloud Platform (GCP) and OVHcloud, integrated with a GitHub Actions CI/CD pipeline for automated security scanning (Trivy).
+* **Network Obfuscation:** Dual-engine architecture utilizing VLESS-REALITY to camouflage traffic as standard TLS, alongside AmneziaWG for Deep Packet Inspection (DPI) evasion.
+* **System Hardening:** Implementation of hardware-level privacy through RAM-backed (`tmpfs`) ephemeral logging, strictly disabled password authentication, and automated OS patching.
+* **Key Takeaway:** Mastering the translation of infrastructure logic into declarative code, ensuring idempotency, and applying zero-trust security principles to cloud provisioning—foundational skills for securing high-performance trading environments.
 
 ---
 
